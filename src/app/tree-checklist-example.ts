@@ -23,15 +23,75 @@ export class TodoItemFlatNode {
  * The Json object for to-do list data.
  */
 const TREE_DATA = {
-  Groceries: {
-    'Almond Meal flour': null,
-    'Organic eggs': null,
-    'Protein Powder': null,
-    Fruits: {
-      Apple: null,
-      Berries: ['Blueberry', 'Raspberry'],
-      Orange: null
-    }
+  Chapter_1_Spring: {
+    'Module 1 - Spring Core': 
+      {
+        'Basic Section':[
+          'Spring Bean Annotations',
+          'Spring Profiles',
+          'Properties with Spring',
+          'Project Configuration with Spring',
+          'Spring Exceptions',
+          'The Spring @Qualifier Annotation',
+          'Why Choose Spring as Your Java Framework?',
+          'Understanding getBean() in Spring',
+          'What is a Spring Bean?',
+          '@Component vs @Repository and @Service in Spring',
+          'Spring Core Annotations',
+          'XML-Based Injection in Spring',
+          'Using Spring @Value with Defaults',
+          'A Quick Guide to Spring @Value',
+          'Intro to Inversion of Control and Dependency Injection with Spring',
+          'Constructor Dependency Injection in Spring',
+          'Wiring in Spring: @Autowired, @Resource and @Inject',
+          'Guide to Spring @Autowired',
+          'Quick Guide to Spring Bean Scopes'
+        ],
+        'Web Section':[
+          'Spring Web Annotations',
+          '@RequestMapping in Spring (popular)',
+          'Spring @RequestParam Annotation (popular)',
+          'The Spring @Controller and @RestController Annotations',
+          'Spring’s RequestBody and ResponseBody Annotations',
+          'Spring MVC Tutorial',
+          'The @ModelAttribute Annotation',
+          'A Guide to the ViewResolver',
+          'Getting Started with Forms',
+          'Introduction to Using Thymeleaf in Spring',
+          'Model, ModelMap, and ModelView',
+          'Bootstrapping a Web Application',
+          'Building a REST API',
+          'Securing a REST API',
+          'Basic and Digest Authentication for a REST API',
+          'REST Pagination',
+          'Error Handling for REST (popular)',
+          'Entity To DTO Conversion for a Spring REST API',
+          'Spring’s RequestBody and ResponseBody Annotations'
+        ],
+        'Spring Persistence SQL':[
+          'Spring Persistence Tutorial (Main Series) (popular)',
+          'Spring JDBC (popular)',
+          'Hibernate 4 with Spring',
+          'The DAO with JPA and Spring',
+          'Transactions with Spring and JPA (popular)',
+          'A Guide to JPA with Spring (popular)',
+          'Spring JPA – Multiple Databases (popular)',
+          'Introduction to Spring Data JPA'
+        ],
+        'Spring Persistence NoSQL':[
+          'Spring Data MongoDB (Series)',
+          'Introduction to Spring Data Cassandra',
+          'Using the CassandraTemplate from Spring Data'
+        ],
+        'Spring Security':[
+          'Security with Spring (Main Series) (popular)',
+          'Spring Security Authentication Tutorial (Series)' ,
+          'Spring Security Registration (Series and Case Study)' 
+        ],
+        'Other Spring technologies':[
+        ]
+      },
+    'Module 2 - Spring DI': null
   },
   Reminders: [
     'Cook dinner',
